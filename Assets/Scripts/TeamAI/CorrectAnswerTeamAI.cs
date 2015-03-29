@@ -24,7 +24,7 @@ public class CorrectAnswerTeamAI : BaseAI
 	void DisplayAnswer()
 	{
 		//display the answer
-		if (mathPblmGenScript.isHiked)
+		if (mathPblmGenScript.isPlayStarted)
 		{
 			answerText.text = mathPblmGenScript.curMathAnsr.ToString();
 		}
