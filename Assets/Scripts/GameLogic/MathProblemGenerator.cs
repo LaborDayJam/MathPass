@@ -5,8 +5,8 @@ public class MathProblemGenerator : MonoBehaviour
 {
 	public static MathProblemGenerator instance;
 
-	[HideInInspector]
-	public bool isPlayStarted = true;
+//	[HideInInspector]
+	public bool isPlayStarted = false;
 
 	public int[] mathAnswers;
 

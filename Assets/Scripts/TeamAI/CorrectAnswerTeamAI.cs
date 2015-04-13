@@ -9,7 +9,7 @@ public class CorrectAnswerTeamAI : BaseAI
 
 	private MathProblemGenerator mathPblmGenScript;
 
-	void Start ()
+	void Awake ()
 	{
 		mathPblmGenScript = gameMaster.GetComponent<MathProblemGenerator>();
 	}
@@ -24,9 +24,6 @@ public class CorrectAnswerTeamAI : BaseAI
 	void DisplayAnswer()
 	{
 		//display the answer
-		if (mathPblmGenScript.isPlayStarted)
-		{
-			answerText.text = mathPblmGenScript.curMathAnsr.ToString();
-		}
+		answerText.text = mathPblmGenScript.curMathAnsr.ToString();
 	}
 }

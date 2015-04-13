@@ -12,7 +12,7 @@ public class PassMechanics : MonoBehaviour
 //	[HideInInspector]
 	public Transform curTarget;
 
-	[HideInInspector]
+//	[HideInInspector]
 	public bool isPassThrown = false;
 
 	private Vector3 footBallStartPos;
